@@ -1,0 +1,80 @@
+.spinner {
+    border-top: 4px solid blue;
+    animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    /* text-decoration: underline solid rgb(251, 250, 249); */
+    color: rgb(7, 238, 199);
+    transition: 1s;
+    border: 2px solid  rgb(244, 247, 247);
+    /* font-size: 28px; */
+}
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+.link1:hover {
+    /* text-decoration: underline solid rgb(251, 250, 249); */
+    color: rgb(7, 238, 199);
+    transition: 1s;
+    /* border: 2px solid  rgb(244, 247, 247); */
+    /* font-size: 28px; */
+}
+.lawaniya{
+    color: rgb(7, 238, 199);
+
+}
+.btn1 {
+    border-radius: 10px;
+    background-color: rgb(35, 109, 247);
+    color: white;
+}
+
+.btn1:hover {
+    /* background-color: gold; */
+    box-shadow: 2px 2px 2px 2px white;
+}
+
+.btn1:active {
+    background-color: rgb(74, 94, 246);
+}
+.profileimg:hover{
+/* transform: rotateY(-180deg); */
+border: 30px 100px greenyellow ;
+transition: transform 3s;
+/* transform-style: preserve-3d; */
+}
+ td {
+
+    padding: 10px;
+    /* margin: 10px; */
+    /* border:2px solid rgb(243, 241, 241); */
+  }
+table tr td{
+    border: solid 3px white;
+  }
+
+
+
